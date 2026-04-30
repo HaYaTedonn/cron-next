@@ -1,0 +1,17 @@
+{
+  "name": "@hayatedonn/cron-next",
+  "version": "0.1.0",
+  "description": "Compute the next run time(s) from a standard 5-field cron expression. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["cron", "crontab", "schedule", "scheduler", "next", "parser", "timer", "zero-dependency"],
+  "repository": { "type": "git", "url": "git+https://github.com/HaYaTedonn/cron-next.git" },
+  "author": "Hayate Suzuki",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "sideEffects": false
+}
