@@ -9,12 +9,12 @@ Compute the **next run time(s)** from a standard 5-field cron expression. A tiny
 
 ## Install
 ```bash
-npm install @hayatedonn/cron-next
+npm install @suzukihayate/cron-next
 ```
 
 ## Usage
 ```js
-import { nextRun, nextRuns, matches } from '@hayatedonn/cron-next';
+import { nextRun, nextRuns, matches } from '@suzukihayate/cron-next';
 
 nextRun('*/15 * * * *');          // next quarter hour
 nextRun('0 9 * * 1-5');           // next weekday at 09:00

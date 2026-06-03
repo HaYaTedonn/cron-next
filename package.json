@@ -1,5 +1,5 @@
 {
-  "name": "@hayatedonn/cron-next",
+  "name": "@suzukihayate/cron-next",
   "version": "0.1.0",
   "description": "Compute the next run time(s) from a standard 5-field cron expression. Zero dependencies.",
   "type": "module",
